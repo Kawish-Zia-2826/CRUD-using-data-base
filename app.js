@@ -12,7 +12,7 @@ import {
 
 // Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyBKcl92ni1E-FZOB2oWyJMWMkdOxA64gjQ",
+  apiKey: "api here",
   authDomain: "crud-bd5ed.firebaseapp.com",
   projectId: "crud-bd5ed",
   storageBucket: "crud-bd5ed.firebasestorage.app",
