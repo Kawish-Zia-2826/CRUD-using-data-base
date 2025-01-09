@@ -37,7 +37,12 @@ $("#addData").click(async function () {
       email: email,
       age: parseInt(age),
     });
-    alert("User added successfully!");
+    alert();
+    Swal.fire({
+      title: "user Added",
+      text: "User added successfully!",
+      icon: "success",
+    });
     renderTable(); // Refresh table
   } catch (e) {
     console.error("Error adding document: ", e);
